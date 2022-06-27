@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            counter-reset: list;
+        }
+
+        ul::before {
+            counter-increment: list;
+            content: "List " counter(list) ": ";
+            counter-reset: listItem;
+        }
+
+        li::after {
+            counter-increment: listItem;
+            content: " - " counter(listItem);
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>James</li>
+        <li>Bond</li>
+        <li>Ada</li>
+        <li>John</li>
+    </ul>
+    <ul>
+        <li>Ghana</li>
+        <li>New York</li>
+        <li>Canada</li>
+        <li>Shangai</li>
+        <li>Japan</li>
+    </ul>
+</body>
+</html>

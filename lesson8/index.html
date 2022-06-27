@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsiveness</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .left, .right, .center {
+            float: left;
+            padding: 20px 0px;
+            text-align: center;
+        }
+
+        .left, .right {
+            width: 20%;
+        }
+
+        .left {
+            background-color: green;
+        }
+
+        .center {
+            width: 60%;
+            background-color: lightgreen;
+        }
+
+        .right {
+            background-color: yellow;
+        }
+
+        @media screen and (max-width: 680px) {
+            .left, .right, .center {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div title="James Gosling">&gt;</div>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto odio omnis atque nulla delectus officia magni, accusantium nesciunt, maiores esse amet eius, dicta corrupti reprehenderit. Perferendis dolorum quia accusamus facilis?
+</body>
+</html> 

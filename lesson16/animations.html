@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            margin: 0;
+        }
+        .box {
+            background-color: crimson;
+            width: 100vw;
+            height: 100vw;
+            animation-name: bounce;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-fill-mode: both;
+            animation-direction: alternate;
+        }
+
+        @keyframes bounce {
+            0% {
+                background-color: crimson;
+            }
+
+            2% {
+                background-color: white;
+            }
+
+            25% {
+                background-color: green;
+            }
+
+            50% {
+                background-color: yellow;
+            }
+
+            100% {
+                background-color: blue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+    </div>
+</body>
+</html>

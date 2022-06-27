@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    z-index: 50;
+}
+
+.logo {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    margin: 0px 25px;
+    cursor: pointer;
+}
+
+.nav-link-btn {
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 25px;
+    background-color: slateblue;
+}
+
+.hero-section {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    color: white;
+}
+
+.hero-section-text {
+    background-color: rgba(0, 0, 0, 0.489);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8rem;
+}
+
+.hero-section-text h1 {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.2em;
+    font-size: 3em;
+    max-width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-section-text p {
+    font-size: 1.2em;
+    max-width: 50%;
+}
+
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero-cat {
+    padding: 20px 30px;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: 1px solid slateblue;
+    width: fit-content;
+    position: relative;
+}
+
+.hero-cat::before {
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    border-radius: 5px;
+    transition: all .5s;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero-cat:hover::before {
+    background-color: slateblue;
+    height: 100%;
+}

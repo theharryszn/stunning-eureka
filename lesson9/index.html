@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input list="soups" placeholder="Select your Soup">
+        <datalist id="soups">
+            <option value="Egusi">Egusi</option>
+            <option value="Afang">Afang</option>
+            <option value="Oha Soup">Oha Soup</option>
+            <option value="Ogbona">Ogbona</option>
+            <option value="Efo Riro">Efo Riro</option>
+            <option value="Fish Stew">Fish Stew</option>
+            <option value="Chicken Stew">Chicken Stew</option>
+            <option value="Mango Soup">Mango Soup</option>
+            <option value="Black Soup">Black Soup</option>
+            <option value="White Soup">White Soup</option>
+            <option value="Pepper Soup">Pepper Soup</option>
+            <option value="Ofe Owerri Soup">Ofe Owerri Soup</option>
+            <option value="Mushroom Soup">Mushroom Soup</option>
+        </datalist>
+    </form>
+    <form
+        oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        0
+        <input type="range"  id="a" name="a" value="50">
+        100 +
+        <input type="number" id="b" name="b" value="50">
+        =
+        <output name="x" for="a b"></output>
+        <br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>

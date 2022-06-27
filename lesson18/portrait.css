@@ -1,0 +1,32 @@
+body {
+    background-color: crimson;
+    font-size: 3em;
+}
+
+@media screen and (max-width: 680px) {
+    body {
+        background-color: gold;
+    }
+}
+
+@media screen and (max-width: 1080px) and (min-width: 680px) {
+    body {
+        background-color: aqua;
+    }
+
+    .box {
+        width : 100px;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    body {
+        color: purple;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    body {
+        color: green;
+    }
+}

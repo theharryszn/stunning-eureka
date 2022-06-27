@@ -1,0 +1,129 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background-color: rgb(81, 46, 8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .ludo {
+            display: grid;
+            background-color: white;
+            width: 42vw;
+            height: 42vw;
+            box-shadow: 2px 2px 10px rgb(27, 27, 27);
+            grid-template-columns: repeat(15,1fr );
+            grid-template-rows: repeat(15,1fr );
+        }
+
+        .blue {
+            background-color: blue;
+            /* grid-area: 1 / 1 / span 6 / span 6; */
+        }
+
+        .blue-road {
+            background-color: blue;
+        }
+        
+        .green {
+            background-color: green;
+            /* grid-area: 1 / 1 / span 6 / span 6; */
+        }
+
+        .green-road {
+            background-color: green;
+        }
+
+        .road {
+            outline: 1px solid black;
+        }
+
+        .red-road {
+            background-color: red;
+        }
+
+        .red {
+            background-color: red;
+            /* grid-area: 1 / 10 / span 6 / span 13; */
+        }
+
+        .middle {
+            grid-column: 7/ 10 ;
+            background-color: goldenrod;
+        }
+    </style>
+</head>
+<body>
+    <div class="ludo">
+        <div class="blue"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="red"></div>
+        <div class="road"></div>
+        <div class="road red-road"></div>
+        <div class="road red-road"></div>
+        <div class="road"></div>
+        <div class="road red-road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="road red-road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="road red-road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="road red-road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="road blue-road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <!-- <div class="middle"></div> -->
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="road blue-road"></div>
+        <div class="road blue-road"></div>
+        <div class="road blue-road"></div>
+        <div class="road blue-road"></div>
+        <div class="road blue-road"></div>
+        <div class="road green-road"></div>
+        <div class="road green-road"></div>
+        <div class="road green-road"></div>
+        <div class="road green-road"></div>
+        <div class="road green-road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+        <div class="road"></div>
+    </div>
+</body>
+</html>

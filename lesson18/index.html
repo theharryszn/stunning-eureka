@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            counter-reset: box;
+        }
+
+        .container {
+            display: grid;
+            grid-template-areas: 'first first . . .' 'first first . . .';
+            /* height: 100vh; */
+            /* align-content: space-between; */
+            gap: 10px;
+        }
+
+        .box {
+            background-color: slateblue;
+            padding: 20px;
+        }
+
+        .box::before {
+            counter-increment: box;
+            content: counter(box);
+            color: white;
+        }
+
+        .box:nth-child(1) {
+            grid-area: first;
+            /* grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3; */
+        }
+
+        .box:nth-child(11) {
+            /* grid-row-start:5 ;
+            grid-row-end:7 ; */
+            /* grid-row: 5 / 7; */
+            /* grid-column-start: 2;
+            grid-column-end:3 ; */
+            /* grid-column: 2 / 3; */
+            /* grid-area: 5 / 2 / 7 / 3; */
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

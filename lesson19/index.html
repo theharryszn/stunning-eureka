@@ -1,0 +1,174 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+
+        }
+
+        body {
+            margin: 0;
+            background-color: rgb(81, 46, 8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .ludo {
+            background-color: white;
+            padding: 10px;
+            border-radius: 2px;
+            outline: 0.1px solid rgb(0, 0, 0);
+        }
+
+        .house {
+            width: 200px;
+            height: 200px;
+            outline: 0.1px solid rgb(0, 0, 0);
+        }
+
+        .red {
+            background-color: red;
+        }
+        .blue {
+            background-color: blue;
+        }
+        .yellow {
+            background-color: yellow;
+        }
+        .green {
+            background-color: green;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .roads {
+            background-color: white;
+        }
+
+        .roads.horizontal {
+            display: grid;
+            grid-template-columns: 33.3px 33.3px 33.3px;
+        }
+
+        .roads.vertical {
+            display: grid;
+            grid-template-columns: repeat(6, 33.3px);
+            width: 200px;
+        }
+
+        .road {
+            outline: 0.1px solid rgb(0, 0, 0);
+            height: 33.3px;
+        }
+
+        .middle {
+            background-color: slateblue;
+            width: 100px;
+            height: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="ludo">
+        <div class="row row1">
+            <div class="house red"></div>
+            <div class="roads horizontal">
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road green"></div>
+                <div class="road green"></div>
+                <div class="road"></div>
+                <div class="road green"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road green"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road green"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road green"></div>
+                <div class="road"></div>
+            </div>
+            <div class="house green"></div>
+        </div>
+        <div class="row row2">
+            <div class="roads vertical">
+                <div class="road"></div>
+                <div class="road red"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road red"></div>
+                <div class="road red"></div>
+                <div class="road red"></div>
+                <div class="road red"></div>
+                <div class="road red"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+            </div>
+            <div class="middle"></div>
+            <div class="roads vertical">
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road blue"></div>
+                <div class="road blue"></div>
+                <div class="road blue"></div>
+                <div class="road blue"></div>
+                <div class="road blue"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road blue"></div>
+                <div class="road"></div>
+            </div>
+        </div>
+        <div class="row row3">
+            <div class="house yellow"></div>
+            <div class="roads horizontal">
+                <div class="road"></div>
+                <div class="road yellow"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road yellow"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road yellow"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road yellow"></div>
+                <div class="road"></div>
+                <div class="road yellow"></div>
+                <div class="road yellow"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+                <div class="road"></div>
+            </div>
+            <div class="house blue"></div>
+        </div>
+    </div>
+</body>
+</html>

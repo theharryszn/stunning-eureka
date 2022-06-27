@@ -1,0 +1,163 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Layouts</title>
+    <style>
+        * {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        body {
+            margin: 0;
+            scroll-behavior: smooth;
+            /* overflow: hidden; */
+        }
+
+        .navbar {
+            background-color: slateblue;
+            color: white;
+            padding: 20px;
+        }
+
+
+        footer {
+            background-color: slateblue;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            font-size: small;
+        }
+
+        .sidebar {
+            padding: 50px;
+            float: left;
+            height: 100vh;
+        }
+
+        .content {
+            height: 100vh;
+            overflow: scroll;
+            scroll-behavior: smooth;
+            scroll-padding-top: 20px;
+        }
+
+        main {
+            overflow: auto;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: gray;
+        }
+
+        li {
+            margin: 10px 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div>Lost and Found</div>
+        </nav>
+    </header>
+    <main>
+        <aside class="sidebar">
+            <h5>Chapters</h5>
+            <ul>
+                <li><a href="#chapter1">Chapter 1</a></li>
+                <li><a href="#chapter2">Chapter 2</a></li>
+                <li><a href="#chapter3">Chapter 3</a></li>
+                <li><a href="#chapter4">Chapter 4</a></li>
+                <li><a href="#chapter5">Chapter 5</a></li>
+                <li><a href="#chapter6">Chapter 6</a></li>
+                <li><a href="#chapter7">Chapter 7</a></li>
+            </ul>
+        </aside>
+        <section class="content">
+            <article id="chapter1">
+                <h2>Chapter 1</h2>
+                <p>
+                    Madison Allen lived in an old brick firehouse in the West Village in downtown New York, a few blocks east of the Hudson River. The firehouse was a hundred years old. It had been a departure for Maddie, after living on the Upper East Side most of her life. She had raised her three children in a comfortable although not luxurious apartment, in a serious-looking prewar building. Buying the firehouse downtown had been an act of independence for her, and it had become a labor of love. She had bought it fifteen years before, when her youngest child, Milagra, had left for college. Her older two, Deanna and Ben, were twenty and twenty-one when she bought it, and still came home for school holidays. Two years later, they had moved into their own apartments, and never came home to live again after they had graduated.
+			        Deanna moved into an apartment in Chelsea and got a job as an assistant designer for a successful contemporary fashion brand that was popular with young women. She had gone to Parsons School of Design and had real talent. She was fiercely competitive with other designers and single-minded with her love of fashion, always focused on her own success. She was less intellectual than her brother and sister. Ben, her younger brother, had a keen instinct for business and had done well. Milagra, the youngest, had been writing since she was fifteen, and her first novel was published by the time she was nineteen. All three of Maddie’s children were very different from each other, with their interests in design, business, and literature. Unlike her younger siblings, Deanna had a killer instinct.
+			
+                    After graduating from Berkeley, Ben had decided to stay in San Francisco, in the world of start-ups. He swore he’d never come back to New York to live, and he hadn’t. He loved the outdoors, California life, and the high-tech world. He was a kind and loving person, a good husband and father, and caring son, although Maddie seldom saw him, and rarely contacted any of them. She didn’t want to intrude on them now that they were adults, and most of the time waited to hear from them. Sometimes it was a long wait, so she called them. But she held out as long as she could.
+                    Milagra had gone to UCLA, taken postgraduate writing
+                </p>
+            </article>
+            <article id="chapter2">
+                <h2>Chapter 2</h2>
+                <p>
+                    Madison Allen lived in an old brick firehouse in the West Village in downtown New York, a few blocks east of the Hudson River. The firehouse was a hundred years old. It had been a departure for Maddie, after living on the Upper East Side most of her life. She had raised her three children in a comfortable although not luxurious apartment, in a serious-looking prewar building. Buying the firehouse downtown had been an act of independence for her, and it had become a labor of love. She had bought it fifteen years before, when her youngest child, Milagra, had left for college. Her older two, Deanna and Ben, were twenty and twenty-one when she bought it, and still came home for school holidays. Two years later, they had moved into their own apartments, and never came home to live again after they had graduated.
+			        Deanna moved into an apartment in Chelsea and got a job as an assistant designer for a successful contemporary fashion brand that was popular with young women. She had gone to Parsons School of Design and had real talent. She was fiercely competitive with other designers and single-minded with her love of fashion, always focused on her own success. She was less intellectual than her brother and sister. Ben, her younger brother, had a keen instinct for business and had done well. Milagra, the youngest, had been writing since she was fifteen, and her first novel was published by the time she was nineteen. All three of Maddie’s children were very different from each other, with their interests in design, business, and literature. Unlike her younger siblings, Deanna had a killer instinct.
+			
+                    After graduating from Berkeley, Ben had decided to stay in San Francisco, in the world of start-ups. He swore he’d never come back to New York to live, and he hadn’t. He loved the outdoors, California life, and the high-tech world. He was a kind and loving person, a good husband and father, and caring son, although Maddie seldom saw him, and rarely contacted any of them. She didn’t want to intrude on them now that they were adults, and most of the time waited to hear from them. Sometimes it was a long wait, so she called them. But she held out as long as she could.
+                    Milagra had gone to UCLA, taken postgraduate writing
+                </p>
+            </article>
+            <article id="chapter3">
+                <h2>Chapter 3</h2>
+                <p>
+                    Madison Allen lived in an old brick firehouse in the West Village in downtown New York, a few blocks east of the Hudson River. The firehouse was a hundred years old. It had been a departure for Maddie, after living on the Upper East Side most of her life. She had raised her three children in a comfortable although not luxurious apartment, in a serious-looking prewar building. Buying the firehouse downtown had been an act of independence for her, and it had become a labor of love. She had bought it fifteen years before, when her youngest child, Milagra, had left for college. Her older two, Deanna and Ben, were twenty and twenty-one when she bought it, and still came home for school holidays. Two years later, they had moved into their own apartments, and never came home to live again after they had graduated.
+			        Deanna moved into an apartment in Chelsea and got a job as an assistant designer for a successful contemporary fashion brand that was popular with young women. She had gone to Parsons School of Design and had real talent. She was fiercely competitive with other designers and single-minded with her love of fashion, always focused on her own success. She was less intellectual than her brother and sister. Ben, her younger brother, had a keen instinct for business and had done well. Milagra, the youngest, had been writing since she was fifteen, and her first novel was published by the time she was nineteen. All three of Maddie’s children were very different from each other, with their interests in design, business, and literature. Unlike her younger siblings, Deanna had a killer instinct.
+			
+                    After graduating from Berkeley, Ben had decided to stay in San Francisco, in the world of start-ups. He swore he’d never come back to New York to live, and he hadn’t. He loved the outdoors, California life, and the high-tech world. He was a kind and loving person, a good husband and father, and caring son, although Maddie seldom saw him, and rarely contacted any of them. She didn’t want to intrude on them now that they were adults, and most of the time waited to hear from them. Sometimes it was a long wait, so she called them. But she held out as long as she could.
+                    Milagra had gone to UCLA, taken postgraduate writing
+                </p>
+            </article>
+            <article id="chapter4">
+                <h2>Chapter 4</h2>
+                <p>
+                    Madison Allen lived in an old brick firehouse in the West Village in downtown New York, a few blocks east of the Hudson River. The firehouse was a hundred years old. It had been a departure for Maddie, after living on the Upper East Side most of her life. She had raised her three children in a comfortable although not luxurious apartment, in a serious-looking prewar building. Buying the firehouse downtown had been an act of independence for her, and it had become a labor of love. She had bought it fifteen years before, when her youngest child, Milagra, had left for college. Her older two, Deanna and Ben, were twenty and twenty-one when she bought it, and still came home for school holidays. Two years later, they had moved into their own apartments, and never came home to live again after they had graduated.
+			        Deanna moved into an apartment in Chelsea and got a job as an assistant designer for a successful contemporary fashion brand that was popular with young women. She had gone to Parsons School of Design and had real talent. She was fiercely competitive with other designers and single-minded with her love of fashion, always focused on her own success. She was less intellectual than her brother and sister. Ben, her younger brother, had a keen instinct for business and had done well. Milagra, the youngest, had been writing since she was fifteen, and her first novel was published by the time she was nineteen. All three of Maddie’s children were very different from each other, with their interests in design, business, and literature. Unlike her younger siblings, Deanna had a killer instinct.
+			
+                    After graduating from Berkeley, Ben had decided to stay in San Francisco, in the world of start-ups. He swore he’d never come back to New York to live, and he hadn’t. He loved the outdoors, California life, and the high-tech world. He was a kind and loving person, a good husband and father, and caring son, although Maddie seldom saw him, and rarely contacted any of them. She didn’t want to intrude on them now that they were adults, and most of the time waited to hear from them. Sometimes it was a long wait, so she called them. But she held out as long as she could.
+                    Milagra had gone to UCLA, taken postgraduate writing
+                </p>
+            </article>
+            <article id="chapter5">
+                <h2>Chapter 5</h2>
+                <p>
+                    Madison Allen lived in an old brick firehouse in the West Village in downtown New York, a few blocks east of the Hudson River. The firehouse was a hundred years old. It had been a departure for Maddie, after living on the Upper East Side most of her life. She had raised her three children in a comfortable although not luxurious apartment, in a serious-looking prewar building. Buying the firehouse downtown had been an act of independence for her, and it had become a labor of love. She had bought it fifteen years before, when her youngest child, Milagra, had left for college. Her older two, Deanna and Ben, were twenty and twenty-one when she bought it, and still came home for school holidays. Two years later, they had moved into their own apartments, and never came home to live again after they had graduated.
+			        Deanna moved into an apartment in Chelsea and got a job as an assistant designer for a successful contemporary fashion brand that was popular with young women. She had gone to Parsons School of Design and had real talent. She was fiercely competitive with other designers and single-minded with her love of fashion, always focused on her own success. She was less intellectual than her brother and sister. Ben, her younger brother, had a keen instinct for business and had done well. Milagra, the youngest, had been writing since she was fifteen, and her first novel was published by the time she was nineteen. All three of Maddie’s children were very different from each other, with their interests in design, business, and literature. Unlike her younger siblings, Deanna had a killer instinct.
+			
+                    After graduating from Berkeley, Ben had decided to stay in San Francisco, in the world of start-ups. He swore he’d never come back to New York to live, and he hadn’t. He loved the outdoors, California life, and the high-tech world. He was a kind and loving person, a good husband and father, and caring son, although Maddie seldom saw him, and rarely contacted any of them. She didn’t want to intrude on them now that they were adults, and most of the time waited to hear from them. Sometimes it was a long wait, so she called them. But she held out as long as she could.
+                    Milagra had gone to UCLA, taken postgraduate writing
+                </p>
+            </article>
+            <article id="chapter6">
+                <h2>Chapter 6</h2>
+                <p>
+                    Madison Allen lived in an old brick firehouse in the West Village in downtown New York, a few blocks east of the Hudson River. The firehouse was a hundred years old. It had been a departure for Maddie, after living on the Upper East Side most of her life. She had raised her three children in a comfortable although not luxurious apartment, in a serious-looking prewar building. Buying the firehouse downtown had been an act of independence for her, and it had become a labor of love. She had bought it fifteen years before, when her youngest child, Milagra, had left for college. Her older two, Deanna and Ben, were twenty and twenty-one when she bought it, and still came home for school holidays. Two years later, they had moved into their own apartments, and never came home to live again after they had graduated.
+			        Deanna moved into an apartment in Chelsea and got a job as an assistant designer for a successful contemporary fashion brand that was popular with young women. She had gone to Parsons School of Design and had real talent. She was fiercely competitive with other designers and single-minded with her love of fashion, always focused on her own success. She was less intellectual than her brother and sister. Ben, her younger brother, had a keen instinct for business and had done well. Milagra, the youngest, had been writing since she was fifteen, and her first novel was published by the time she was nineteen. All three of Maddie’s children were very different from each other, with their interests in design, business, and literature. Unlike her younger siblings, Deanna had a killer instinct.
+			
+                    After graduating from Berkeley, Ben had decided to stay in San Francisco, in the world of start-ups. He swore he’d never come back to New York to live, and he hadn’t. He loved the outdoors, California life, and the high-tech world. He was a kind and loving person, a good husband and father, and caring son, although Maddie seldom saw him, and rarely contacted any of them. She didn’t want to intrude on them now that they were adults, and most of the time waited to hear from them. Sometimes it was a long wait, so she called them. But she held out as long as she could.
+                    Milagra had gone to UCLA, taken postgraduate writing
+                </p>
+            </article>
+            <article id="chapter7">
+                <h2>Chapter 7</h2>
+                <p>
+                    Madison Allen lived in an old brick firehouse in the West Village in downtown New York, a few blocks east of the Hudson River. The firehouse was a hundred years old. It had been a departure for Maddie, after living on the Upper East Side most of her life. She had raised her three children in a comfortable although not luxurious apartment, in a serious-looking prewar building. Buying the firehouse downtown had been an act of independence for her, and it had become a labor of love. She had bought it fifteen years before, when her youngest child, Milagra, had left for college. Her older two, Deanna and Ben, were twenty and twenty-one when she bought it, and still came home for school holidays. Two years later, they had moved into their own apartments, and never came home to live again after they had graduated.
+			        Deanna moved into an apartment in Chelsea and got a job as an assistant designer for a successful contemporary fashion brand that was popular with young women. She had gone to Parsons School of Design and had real talent. She was fiercely competitive with other designers and single-minded with her love of fashion, always focused on her own success. She was less intellectual than her brother and sister. Ben, her younger brother, had a keen instinct for business and had done well. Milagra, the youngest, had been writing since she was fifteen, and her first novel was published by the time she was nineteen. All three of Maddie’s children were very different from each other, with their interests in design, business, and literature. Unlike her younger siblings, Deanna had a killer instinct.
+			
+                    After graduating from Berkeley, Ben had decided to stay in San Francisco, in the world of start-ups. He swore he’d never come back to New York to live, and he hadn’t. He loved the outdoors, California life, and the high-tech world. He was a kind and loving person, a good husband and father, and caring son, although Maddie seldom saw him, and rarely contacted any of them. She didn’t want to intrude on them now that they were adults, and most of the time waited to hear from them. Sometimes it was a long wait, so she called them. But she held out as long as she could.
+                    Milagra had gone to UCLA, taken postgraduate writing
+                </p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Aptech Books.
+    </footer>
+</body>
+</html>

@@ -1,0 +1,15 @@
+body {
+    padding: 50px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(106, 215, 106);
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 50%;
+    outline: 50px solid rgb(106, 215, 106);
+}

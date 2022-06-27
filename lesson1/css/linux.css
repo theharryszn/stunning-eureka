@@ -1,0 +1,25 @@
+body {
+    background-color: slateblue;
+}
+
+@font-face {
+    font-family: Averta;
+    src: url("../Averta.woff2");
+}
+
+p {
+    color: aliceblue;
+    font-family: Averta,'Gochi Hand', cursive;
+    font-size: 30px;
+    border: 10px dashed red;
+    padding: 40px;
+    margin: 200px;
+}
+
+em {
+    background-color: aqua;
+}
+
+mark {
+    background-color: brown;
+}
